@@ -3,75 +3,121 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wills Portfolio</title>
+    <title>My Portfolio | Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav><a href="">Home</a></nav>
-        <nav><a href="#about">About</a></nav>
-        <nav><a href="#work">Work</a></nav>
-        <nav> <a href="#resume">Resume</a></nav>
-        <nav><a href="#contact"> Contact</a></nav>
-    </header>
-    <main>
-        <figure>
+        <nav>
+           <h1>Wil<span>Tech</span></h1>
 
-            <img src="IMG_9604.jpg"   alt="a picture of me" width="600" height="300">
-       
-        </figure>
-        
-        
-        <article>
-            <p>Hello, my name is </p>
-            <h2><b>Wills Odali.</b></h2>
+           <div class="nav-menu">
+            <ul>
+                <li><a class="links" href="#home">HOME</a></li>
+                <li><a class="links" href="#about">ABOUT</a></li>
+                <li><a class="links" href="#resume">RESUME</a></li>
+                <li><button class="contact-btn"><a href="#contact">CONTACT</a></button></li>
+            </ul>
+           </div>
+           
+
+           <div class="hamburger">
+
+            <i id="#hamburger" class="fa fa-bars" aria-hidden="true"></i>
+
+           </div>
+        </nav>
+    </header>
+    <main id="home">  
+
+        <div class="myname" >
+            <h2>Hi, my name is </h2>
+            <p> <span class="myName"><b>Wills Odali.</b></p></span>
+
+        </div>
+
+
+        <div class="horizontal-rule">
+            <hr>
+        </div>
+
+            
+
+        <div class="what-i-do">
+
             <h2><b>I build things for the web.</b></h2>
             <p>I’m a Front-end developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, and currently taking on a Fullstack Web development Course at GoMyCode Nigeria.</p>
-        </article>
+
+        </div>
+        
+       
+    
+    
        
        
+    </main>     
        
-        <section>
-            <h2><a id="about">About</a></h2>
-            <p>Hello! My name is Wills and I enjoy creating things that live on the internet. My interest in web development started back in 2022 when I decided take on my self learnig with freecodecamp — turns out that step taught me a lot about HTML &amp; CSS!
+    <section class="aboutme" id="about">
+        <div class="about-me">
+            <h2><a >About</a></h2>
+            <p>Hello! My name is Wills and I enjoy creating things that live on the internet. My interest in web development started back in 2022 when I decided take on my self learnig with freecodecamp — turns out that step taught me a lot about HTML, CSS and JavaScript!
 
                 Fast-forward to today, and I've had the privilege of creating any website/application i want to build. a start-up, a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                 
                 I'm currently taking on a fullstack WebDevelopment course at GOMYCODE Nigeria to move from just a front-end developer to a Fullstack developer.
                 In the nearest future, i look forward sharing my knowledge with people who are willing and have interest in web development.
-                
-                </p>
-        </section>
+            </p>
+        </div>
+        <div class="my-image">
 
-        <section>
-            <h2><a id="resume">Resume</a></h2>
-            <h4>Wills Odali</h4>
-            <h4>Entry-Level Web Developer</h4>
-            <p>odaliwills@gmail.com</p>
-            <br>
+            <img src="./my-image.jpg" alt="">
+
+        </div>
+            
+           
+
+    </section>  
+
+              
+        
+
+    <section class="resume" id="resume">
+         
+        <h2><a >Resume</a></h2>
+         <h4>Wills Odali</h4>
+        <h4>Entry-Level Web Developer</h4>
+        <p>odaliwills@gmail.com</p>
+        <br>
 
 
-            <h4>Objective</h4>
-            <p>Enthusiastic computer science graduate from the Delta State Polytechni, Ozoro, NV with 8 months of experience in web development and design. Obtained HTML and CSS certifivation from FREECODECAMP. Looking to deliver excellent web development skills in JavaScript in GOMYCODE</p>
-            <br>
-            <br>
+        <h4>Objective</h4>
+        <p>Enthusiastic computer science graduate from the Delta State Polytechni, Ozoro, NV with 8 months of experience in web development and design. Obtained HTML and CSS certifivation from FREECODECAMP. Looking to deliver excellent web development skills in JavaScript in GOMYCODE</p>
+        <br>
+        <br>
 
             
 
-            <h4><b>Education</b></h4>
-            <p>
+        <h4><b>Education</b></h4>
+        
+        <p>
 
-               <b>Delta State Polytechnic, Ozoro, Delata State.</b>
+            <b>Delta State Polytechnic, Ozoro, Delata State.</b>
                 
-                <b> Graduated: 2016</b>
-                </p><p><b> Relevant Coursework:</b> Computer Science Technology.</p>
+            <b> Graduated: 2016</b>
+        
+        </p>
+               
+        
+        <p><b> Relevant Coursework:</b> Computer Science Technology.</p>
                 <p><b>GPA:</b> 3.0</p>
                 
                 <!-- complete here in the next edit -->
             <p></p>
             <br>
 
-            <h4>Work Expericence</h4>
-            <h4>Junior Web Developer</h4>
+        <h4>Work Expericence</h4>
+        <h4>Junior Web Developer</h4>
             <dt>
                 </dt><dt><b> Freelancer</b></dt>
                 <ul>
@@ -79,12 +125,12 @@
                     <dd><li> Resolved web application issues based on external and internal reports with 100% efficiency.</li></dd>
                     <dd> <li> Introduced website modernization efforts to create a better overall user experience and incorporate SEO optimization, increasing website visits from unique users by 12%.</li></dd>
 
-                </ul>
-
-               
+                </ul>             
             
             <br>
-            <h4>Professional Skills</h4>
+        
+        
+        <h4>Professional Skills</h4>
             
             <dt><b> Professional Skills</b></dt>
                 <ul>
@@ -94,53 +140,69 @@
                     <dd> <li> Communication skills.</li></dd>
                     <dd> <li> Teamwork</li></dd>
                     <dd> <li> Adaptability.</li></dd>
-                </ul>
+             
+                </ul><br>
 
-        </section>
-        <br>
-        <section>
-            <dt><b> Language</b></dt>
+                <dt><b> Language</b></dt>
                 <ul>
                     <dd> <li> English</li></dd>
                 </ul>
-
-        </section>
-
-
-        <section>
-            <h2 id="contact">Contact</h2>
-
-            <form action="">
-                <label for="FirstName">First Name</label>
-                <input type="text" placeholder="John">
-                <br>
-                <label for="LastName">Last Name</label>
-                <input type="text" name="LastName" id="" placeholder="Doj">
-                <br>
     
-                <label for="email">Email</label>
-                <input type="email" placeholder="example@email.com">
-                <br>
-    
-                <textarea placeholder="Please write your message here" name="" id="" cols="30" rows="10"></textarea>
-                <br>
-    
-                <input type="radio">
-                <label for="radio">Please click here to accept terms and conditons</label>
-                <br>
-                
-                <br>
-                <input type="text" name="search">
-    
-                <button>Submit</button>
-                
-                
-            </form>
-    
-        </section>
-    </main>
 
-    <br><br>
+    </section>
+        
+    
+    
+    
+
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+
+            <h2 >Contact Me</h2>
+            <div class="form-field">
+                <form action="">
+                    <div class="name">
+                        <label for="input">First Name</label>
+                    <input class="input-field" type="text" placeholder="John">
+
+                    </div>
+                    
+                    <div class="input">
+                        <label for="LastName">Last Name</label>
+                    <input class="input-field" type="text" name="LastName" id="" placeholder="Doj">
+                    </div>
+                    
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input class="input-field" type="email" placeholder="example@email.com">
+                    </div>
+                   
+                    
+            
+                    <textarea placeholder="Please write your message here" name="" id=""></textarea>
+                    <br>
+                    <input type="checkbox">
+                    <label for="radio">Recieve newsletters from me</label>
+                    
+                        <br>
+                    
+                    <input class="input-field" type="text" name="search"><br>
+            
+                   
+                        
+                        
+                </form>
+
+                <button  class="submit-btn">Submit</button>
+            </div>
+
+        </div>
+       
+
+        
+    </section>
+    
 
     <footer>
         <p>Author: Wills Odali</p>
